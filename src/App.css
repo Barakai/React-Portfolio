@@ -1,0 +1,123 @@
+.header-color {
+    background: rgb(112, 167, 239);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, rgb(118, 160, 199), rgb(112, 163, 239));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, rgb(137, 184, 247), rgb(108, 150, 230)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.landing-grid {
+    background: rgb(116, 157, 233);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, rgb(144, 186, 241), rgb(118, 150, 240));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, rgb(142, 173, 230), rgb(95, 122, 211)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+
+
+/* contact page css */
+
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  width: 95%;
+  height: 425px;
+  background: rgb(221, 213, 213);
+  color: black;
+  margin-bottom: 20px;
+  padding-top: 0;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}
+
+
+/* contact page css */
+
+.me-img {
+    width: 200;
+  height: 200px;
+  padding-top: 5em;
+  border-radius: 1%;
+}
+
+.banner-text {
+  background-color: rgb(40, 49, 70);
+  opacity: .8;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.link{
+  color: rgb(12, 66, 214);
+}
